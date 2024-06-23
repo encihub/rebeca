@@ -1,6 +1,7 @@
 import type { GatsbyConfig, PluginRef } from 'gatsby';
 
 const config: GatsbyConfig = {
+  pathPrefix: '/rebeca',
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
@@ -8,9 +9,9 @@ const config: GatsbyConfig = {
     siteTitle: 'Rebeca',
     siteTitleAlt: 'Rebeca',
     siteHeadline: 'Rebeca',
-    siteUrl: 'https://emma.lekoarts.de',
-    siteDescription: 'Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images',
-    siteImage: '/banner.jpg',
+    siteUrl: 'https://encihub.github.io/rebeca/',
+    siteDescription:
+      'Rebeca: Masajes, estilo de vida saludable & belleza y bienestar',
     siteLanguage: 'es',
     author: '@jlopezcur',
   },
@@ -35,7 +36,8 @@ const config: GatsbyConfig = {
       options: {
         name: 'Rebeca',
         short_name: 'Rebeca',
-        description: 'Minimalistic bright portfolio with full-width grid and large images',
+        description:
+          'Minimalistic bright portfolio with full-width grid and large images',
         start_url: '/',
         background_color: '#fff',
         // This will impact how browsers show your PWA/website
