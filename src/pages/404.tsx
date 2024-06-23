@@ -1,9 +1,9 @@
-import * as React from "react"
-import { HeadFC, Link, PageProps } from "gatsby"
-import { Container, Link as TLink } from "theme-ui"
-import { Themed } from "@theme-ui/mdx"
-import Layout from "@lekoarts/gatsby-theme-emma/src/components/layout"
-import Seo from "@lekoarts/gatsby-theme-emma/src/components/seo"
+import * as React from 'react';
+import { HeadFC, Link, PageProps } from 'gatsby';
+import { Container, Link as TLink } from 'theme-ui';
+import { Themed } from '@theme-ui/mdx';
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const NotFound = (_props: PageProps) => (
   <Layout>
@@ -18,8 +18,8 @@ const NotFound = (_props: PageProps) => (
       </Themed.p>
     </Container>
   </Layout>
-)
+);
 
-export default NotFound
+export default NotFound;
 
-export const Head: HeadFC = () => <Seo title="404 - Not Found" />
+export const Head: HeadFC = () => <Seo title="404 - Not Found" />;
