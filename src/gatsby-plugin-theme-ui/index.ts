@@ -10,10 +10,10 @@ const config = merge(tailwind, {
     secondary: tailwind.colors.indigo[6],
     modes: {
       dark: {
-        text: tailwind.colors.white,
-        primary: tailwind.colors.pink[4],
-        background: tailwind.colors.gray[8],
-        textMuted: tailwind.colors.gray[5],
+        text: tailwind.colors.black,
+        primary: tailwind.colors.pink[6],
+        background: tailwind.colors.white,
+        textMuted: tailwind.colors.gray[7],
       },
     },
   },
