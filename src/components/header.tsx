@@ -51,6 +51,7 @@ const Header = ({ meta, nav }: HeaderProps) => {
       <div
         sx={{
           a: {
+            padding: '16px',
             color: `text`,
             display: `flex`,
             alignItems: `center`,

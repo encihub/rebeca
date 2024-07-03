@@ -93,7 +93,7 @@ const ProjectItem = ({ node, style, eager }: ProjectItemProps) => (
             zIndex: -2,
           }}
         />
-        <div sx={{ fontSize: 34, fontWeight: `bold` }}>{node.service}</div>
+        <div sx={{ fontSize: 34, fontWeight: `bold`, lineHeight: '34px' }}>{node.service}</div>
       </Link>
     </div>
   </animated.div>
