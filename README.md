@@ -1,3 +1,10 @@
-# Rebeca
+# Rebeca web
 
-Presentation card web
+Web de Rebeca
+
+## Quick start
+
+```
+npm ci
+npm start
+```
