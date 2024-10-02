@@ -45,8 +45,7 @@
     ]
   },
   "include": [
-    "src/**/*",
-    "./plugins/**/*",
+    "src",
     ".next/types/**/*.ts"
   ],
   "exclude": [
