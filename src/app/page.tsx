@@ -7,7 +7,7 @@ export default async () => {
     <div className="grid grid-col-1 lg:grid-cols-3">
       {services &&
         services.map((service, index) => (
-          <HomeItem service={service} index={index} />
+          <HomeItem key={service.filename} service={service} index={index} />
         ))}
     </div>
   );
