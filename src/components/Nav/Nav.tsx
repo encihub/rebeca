@@ -40,6 +40,9 @@ p-0 m-0
                 <Link
                   href={`/${page.filename}`}
                   className="p-4 flex items-center text-black justify-center lg:justify-start"
+                  onClick={() => {
+                    setOpen(false);
+                  }}
                 >
                   {page.title}
                 </Link>
