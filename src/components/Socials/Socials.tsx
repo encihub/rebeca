@@ -12,7 +12,7 @@ const iconMap = {
 };
 
 export const Socials: React.FC<Props> = ({ socials }) => (
-  <div className="flex flex-1 justify-center md:justify-end">
+  <div className="flex flex-1 justify-center lg:justify-end">
     {socials &&
       socials.map((social) => {
         const Icon = iconMap[social.icon as 'FaPhone' | 'FaEnvelope'];

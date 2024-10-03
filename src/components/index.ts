@@ -4,4 +4,5 @@ export * from './Header';
 export * from './HeaderTitle';
 export * from './HomeItem';
 export * from './Nav';
+export * from './NavButton';
 export * from './Socials';
